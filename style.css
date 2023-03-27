@@ -1,0 +1,149 @@
+* {
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-size-adjust: 100%;
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    font-family: 'Hanken Grotesk', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:600px) {
+    .main-container {
+        align-items: center;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        display: flex;
+        margin-top: 44px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.main-container {
+    border-radius: 22px;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.09);
+    display: flex;
+    transform: translateY(20%);
+}
+
+.results-chat {
+    text-align: center;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 22px;
+    width: 300px;
+    padding: 20px;
+}
+
+.results-chat h5 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.results-chat div {
+    border-radius: 100%;
+    width: 150px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    margin: auto;
+    padding: 25px 25px;
+    height: 150px;
+}
+
+.results-chat h3 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.results-chat p {
+    padding: 0 24px;
+    color: #f3f3f3;
+    font-size: 14px;
+}
+
+.results-chat div h2 {
+    color: #fff;
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin: 22px;
+    margin-bottom: 0;
+}
+
+.results-chat div span {
+    color: #f3f3f3;
+    font-size: 14px;
+}
+
+#dynamic-results {
+    width: 300px;
+    padding: 20px;
+    text-align: center
+}
+
+#dynamic-results h6 {
+    font-weight: 700;
+    margin-bottom: 14px;
+    font-size: 1rem;
+    text-align: left;
+}
+
+
+/* generated dynamic divs */
+
+.holders {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 22px;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.holders div {
+    display: flex;
+}
+
+.holders div p {
+    font-weight: 700;
+}
+
+.svg-img {
+    margin-right: 12px;
+}
+
+.paragraphe-seperator {
+    font-weight: 600;
+    color: #000;
+}
+
+.paragraphe-seperator span {
+    font-weight: 600;
+    color: hsl(241, 100%, 89%);
+}
+
+.normal {
+    margin-top: 22px;
+    width: 100%;
+    padding: 13px 28px;
+    border-radius: 22px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 500;
+    background: hsl(224, 30%, 27%);
+    border: 1px solid hsl(224, 30%, 27%);
+    cursor: pointer;
+}
+
+.normal:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border: 1px solid hsl(241, 81%, 54%);
+}
